@@ -39,17 +39,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Edit.WPF">
-    <HintPath>Library\4.6\Syncfusion.Edit.WPF.dll</HintPath>
+      <HintPath>Library\4.6\Syncfusion.Edit.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Shared.WPF">
-    <HintPath>Library\4.6\Syncfusion.Shared.WPF.dll</HintPath>
+      <HintPath>Library\4.6\Syncfusion.Shared.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.WPF.Classic, Version=20.3460.0.56, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\WPF licensed\WPF\20.3.0.56\precompiledassemblies\4.6\Syncfusion.Shared.WPF.Classic.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Tools.WPF">
-    <HintPath>Library\4.6\Syncfusion.Tools.WPF.dll</HintPath>
-    </Reference>  
+      <HintPath>Library\4.6\Syncfusion.Tools.WPF.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.Licensing">
-    <HintPath>Library\4.6\Syncfusion.Licensing.dll</HintPath>
-    </Reference>  
+      <HintPath>Library\4.6\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.WPF.Classic, Version=20.3460.0.56, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\WPF licensed\WPF\20.3.0.56\precompiledassemblies\4.6\Syncfusion.Tools.WPF.Classic.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
@@ -213,7 +221,7 @@
   <ItemGroup>
     <Resource Include="Images\TransparentBackground.jpg" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />   
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Resource Include="Images\classimg.PNG" />
   </ItemGroup>
