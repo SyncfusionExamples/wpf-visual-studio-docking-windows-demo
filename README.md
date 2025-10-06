@@ -1,5 +1,7 @@
 # Visual Studio-like Docking Windows Demo for WPF
-As .NET developers, we have all worked in Visual Studio and at some point may have wondered about the docking windows that hold the Solution Explorer, Code Window, Toolbox, and others. Visual Studio-style docking windows allow you to resize, move, and change the behavior of windows to create a layout that suits various development models. The Syncfusion docking manager allows users to create their own layout by just dragging and dropping the windows to the desired positions. It also allows layouts to be persisted with built-in serialization options. 
+This sample demonstrates how to create a Visual Studio-like docking layout in a WPF application using Syncfusion’s DockingManager control. It showcases how developers can organize multiple tool windows—such as Solution Explorer, Properties, and Output—into a flexible, interactive workspace that supports docking, floating, tab grouping, and auto-hide behavior.
+The layout mimics the familiar Visual Studio interface, allowing users to drag and drop panels to customize their workspace. It also includes built-in support for layout persistence through serialization, so users can save and restore their preferred configurations.
+In addition to layout functionality, this sample applies a Visual Studio-like theme to enhance the overall look and feel. It serves as a practical reference for building modern, user-friendly WPF applications with dynamic panel management.
 
 ## About the sample
 This sample shows how to Create Visual Studio-like Docking Windows in WPF.
