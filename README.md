@@ -18,7 +18,7 @@ This sample demonstrates how to build Visual Studio-style window layouts in a WP
 3. Add the Syncfusion XML namespace in XAML:
    - xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
 4. Place a DockingManager in your Window/Page to host dockable panes.
-5. Add FrameworkElement children (e.g., ContentControl) and set:
+5. Add children (e.g., ContentControl) and set:
    - syncfusion:DockingManager.Header for pane titles
    - syncfusion:DockingManager.State (Dock, Document, etc.)
    - syncfusion:DockingManager.SideInDockedMode and TargetNameInDockedMode for layout
